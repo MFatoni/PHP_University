@@ -1,0 +1,7 @@
+.purple {color:#4e1874}
+.bg-purple {background:#4e1874}
+.picture img {height: 100px;width: 100px;}
+.footer {position: fixed;left: 0;bottom: 0px;width: 100%;}
+.display1 , .display1 > li {display: none}
+@media (max-width: 770px){.hidden1{display: none } }
+@media (max-width: 991px){.display2{display: none} .display1{display: block} .display1>li {display: block} }

@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Gunadarma</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../assets/style.css">
+        <script type="text/javascript" src="../assets/js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-purple">          
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container ">
+                <li class="nav-item text-white">&#9742 08123456789  &#9745 GUNADARMA@EMAIL.COM</li>
+                <li class="nav-item "><a class="nav-link text-white" href="http://localhost/Project/gunadarma/public/login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid"><br>
+            <div class="container">
+                <div class="row h-25">
+                    <div class="col-md-3 d-flex justify-content-center"><img class="h-100 " src="../assets/img/logo.png"></div>
+                    <div class="col-md-9 d-flex align-items-center justify-content-center "><img class="h-75 w-75 hidden1" src="../assets/img/logo2.png"></div>
+                </div>
+            </div><br>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container font-weight-bold">
+                    <li class="nav-item active purple "><a class="nav-link" href="http://localhost/Project/gunadarma/">HOME<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">GALERY / PHOTOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">AKADEMIK</a></li>
+                    <li class="nav-item display1"><a class="nav-link" href="#">UG DIREKTORI</a>
+                        <ul class=" nav navbar-nav font-weight-bold d-block ">
+                            <li class="nav-item"><a href="#" class="nav-link">STAFFSITE</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">STUDENTSITE</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">CAREER CENTER</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">DIREKTORY</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">BAPSI</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">STAFFSITE</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        </div><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="display2 col-lg-2">
+                    <nav class=" nav navbar navbar-expand-lg navbar-light bg-light">
+                        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo04" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo04">
+                            <ul class="nav navbar-nav font-weight-bold d-block">
+                                <li class="nav-item"><a href="#" class="nav-link">STAFFSITE</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">STUDENTSITE</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">CAREER CENTER</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">DIREKTORY</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">BAPSI</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">STAFFSITE</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-center purple">SIGN IN</h2><br>
+                    <form action="http://localhost/Project/gunadarma/app/controller.php" method="POST">
+                        <table class="d-flex justify-content-around">
+                            <tr><td style="width: 300px"><input type="text" name="email" class="form-control mb-4" placeholder="Email"></td></tr>
+                            <tr><td><input type="password" name="password" class="form-control mb-4" placeholder="Password"></td></tr>
+                            <tr><td><input type="hidden" name="status" value="login"></td></tr>
+                            <tr><td><p class="text-center">Not a member? <a href="http://localhost/Project/gunadarma/public/regist.html">Register</a></p></td></tr>
+                            <tr><td><button class="btn btn-block my-4" type="submit">Sign in</button></td></tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="height:100px"></div>
+        <nav class="navbar bg-purple footer">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container "><p class="text-white d-flex align-items-center justify-content-center">&copy COPYRIGHT 2018</p></ul>
+        </nav>
+    </body>
+</html>
